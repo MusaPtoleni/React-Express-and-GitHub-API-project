@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+a{
+  text-align: center;
+  font-size: x-large;
+  text-decoration: none;
+  color: #000000b4;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+span{
+  font-size: x-large;
+
+}
+
+/* navbar section*/
+.navbar{
+  padding: 5px;
+  border-bottom:1px solid rgb(214, 212, 212);
+  text-align: center;
+
+}
+
+/* Form properties */
+form{
+  text-align: center;
+  padding: 25px;
+  width: 26vw;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 239, 240);
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-decoration: overline;
+  font-size: larger;
+}
+
+form button{
+  border: 1px solid gray;
+  padding: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+}
+
+form input{
+  border: 1px solid gray;
+  padding: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+}
+/* Search Page properties */
+
+.profile{
+  /* position: relative;
+  left: 4rem;
+  top: 2rem; */
+  text-align: center;
+}
+
+.profile img{
+  border-radius: 15px;
+  margin: auto;
+}
+
+.profile p{
+  color: orange;
+  text-align: center;
+}
+
+.enter{
+  color: rgba(0, 0, 0, 0.692);
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.part1{
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  top: 4rem;
+
+}
+
+/* Loading icon */
+/* used this link for the spinner https://cssloaders.github.io/ */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #d32323;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: relative;
+  top: 10rem;
+  left: 12rem;
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 
+
+/* User properties */
+.repo{
+  font-size: large;
+}
+
+.user{
+  font-size: large;
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  border-bottom: 1px solid rgba(204, 197, 197, 0.363);
+}
+
+.user li{
+  list-style: none;
+}
+
+.user a{
+  font-size: large;
+}
+
+.repo li{
+  list-style: none;
+}
+
+.repo a{
+  font-size:large;
+}
+
+.linkColor{
+  color: rgba(0, 195, 255, 0.74);
+}
+
+.gitURL{
+  color: #faa72b;
+}
+
+.repoList{
+  color: rgb(15, 226, 110);
+}
+
+.welcome p{
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+  color:rgba(0, 0, 0, 0.692);
+}
+
+.welcome h1{
+  position: relative;
+  top: 2rem;
+  padding: 5px;
+  font-size: xx-large;
+}
